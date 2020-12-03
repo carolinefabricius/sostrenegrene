@@ -1,0 +1,328 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:"avenir";
+}
+
+h1 {
+  margin: 0%;
+  font-weight:500;
+  font-size: 30px;
+  padding-left:170px;
+  padding-top:100px;
+  width: 430px;
+}
+p {
+  padding-left:170px;
+  line-height: 30px;
+}
+
+.container {
+  height: auto;
+}
+
+/*Sektion 1*/
+
+.sektion-1 {
+display: flex;
+width: 100%;
+background-color: #EFE2D5;
+height:33.3333333333333%;
+}
+
+.sektion-1-tekst {
+  height:100%;
+    width: 430px;
+}
+
+#konceptbeskrivelse {
+  width: 430px;
+  height: 100%;
+  text-align: justify;
+}
+
+#underskrift {
+  width: 250px;
+  height:170px;
+}
+
+#hashtag-1 {
+width: 150px;}
+
+.sektion-1-billede {
+  float: left;
+  width: 430px;
+}
+#klimalogo {
+  width: 300px;
+  float: left;
+  padding-left: 500px;
+  padding-top: 100px;
+}
+
+#tilmelddigher {
+  width: 200px;
+  float: left;
+  padding-left: 550px;
+  margin-top: 20px;
+}
+
+/*Sektion 2*/
+
+.sektion-2 {
+  height:33.3333333333333%;
+    width: 100%;
+      background-color: #BED0C9;
+      text-align: center;
+}
+
+#kampagnevideo {
+  background-color: yellow;
+  text-align: center;
+}
+
+.fn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#tolv {
+  padding-left: 10%;
+  width: 100px;
+  padding-right: 10px;
+}
+
+#tretten {
+  padding-right: 10%;
+  width: 100px;
+  padding-left: 10px;
+}
+
+.sektion-2-container {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.kolonne-1 {
+float:left;
+margin-left: 100px;
+text-align: right;
+}
+
+.kolonne-2 {
+  float: left;
+  margin-right: 100px;
+  padding-bottom: 80px;
+}
+
+#venstre-underline-1 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-left:2px;
+}
+#venstre-underline-2 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-left:75px;
+}
+#venstre-underline-3 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-left:52px;
+}
+#hojre-underline-1 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-right: 35px;
+}
+#hojre-underline-2 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-right: 50px;
+}
+#hojre-underline-3 {
+  border-bottom: solid 1.9px #000000;
+      display: inline-block;
+      padding-bottom: 3px;
+      padding-right: 50px;
+}
+
+.logo {
+  width: 105px;
+  height: 105px;
+}
+
+/*Sektion 3*/
+
+.sektion-3 {
+  height:33.3333333333333%;
+  width: 100%;
+    background-color: #D8DDED ;
+    display:flex;
+}
+
+.sektion-3-venstre {
+width: 50%;
+height: 100%;
+}
+
+#blomst {
+  width: 100%;
+}
+
+.tider-border {
+  background-color: #BECCCC;
+  width: 100%;
+}
+
+.tider-ramme {
+  background-color: #C7D3D3;
+    padding: 5%;
+    height: 90;
+}
+
+.tider {
+   background-color: #BECCCC;
+   text-align: center;
+   padding: 5%;
+   height: 478.6px;
+   line-height: 50px;
+}
+
+.sektion-3-hojre {
+  width: 50%;
+  height: 100%;
+}
+
+.slut-tekst {
+  height: 100%;
+}
+
+#slut-tekst {
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-top: 12%;
+}
+
+ul {
+  list-style:circle;
+  padding-left: 20%;
+  padding-right: 16%;
+  line-height: 30px;
+}
+
+#fantasien {
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+#hashtag-tekst {
+padding-left: 33%;
+padding-right: 33%;
+}
+
+#hashtag-2 {
+width: 150px;
+padding-left: 40%;
+padding-right: 40%;
+}
+
+#kampagne-ord {
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 5%;
+  font-weight: bold;
+font-style: italic;
+}
+
+#kampagne-spoergsmaal {
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-bottom: 24.5%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.lokation {
+max-width: 100%;
+min-width: auto;
+}
+
+footer {
+  background-color: #D8DDED;
+width: 100%;
+left: 0;
+bottom: 0;
+}
+
+.footer-div {
+  width: 100%;
+  display: flex;
+}
+
+.footer-venstre {
+width: 40%;
+float: left;
+margin-left: 100px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#grene {
+width: 40%;
+}
+
+.footer-midten {
+width: 20%;
+float: center;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#kryds {
+width: 10%;
+}
+
+.footer-højre {
+width: 40%;
+float: right;
+text-align: center;
+margin-right: 100px;
+margin-bottom: 20px;
+}
+
+#lyngby {
+width: 40%;
+}
+
+@media only screen and (max-width: 1232px) {
+  .sektion-1-billede {
+    display: none;
+  }
+  .sektion-3-venstre, .sektion-3-hojre {
+    width: 100% !important;
+  }
+  .sektion-3 {
+    display: block;
+  }
+  .kolonne-1, .kolonne-2 {
+    width: 50% !important;
+    position:none; padding:0;
+  }
+  .sektion-2-container {
+    display: block;
+    height: 1600px;
+  }
+}
